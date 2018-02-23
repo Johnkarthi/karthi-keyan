@@ -1,4 +1,4 @@
-a=input()
-a=(a//10)*10
-b=a+10
+aa=input()
+aa=(aa//10)*10
+b=aa+10
 print(b)
