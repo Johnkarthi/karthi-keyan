@@ -1,2 +1,2 @@
-a=input()
-print(len(str(a)))
+lthh=input()
+print(len(str(lthh)))
