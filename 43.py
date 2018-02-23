@@ -1,3 +1,3 @@
-a=raw_input()
-b=raw_input()
-print(a+b)
+xx=raw_input()
+yy=raw_input()
+print(xx+yy)
