@@ -1,11 +1,11 @@
 s = input()
-a=input()
-b=input()
+aa=input()
+ba=input()
 if(s>=a):
-    if(s<=b):
+    if(s<=ba):
         print("Yes")
-elif(s<=a):
-    if(s>=b):
+elif(s<=aa):
+    if(s>=ba):
         print("yes")
 else:
         print("no")
