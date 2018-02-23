@@ -1,2 +1,2 @@
-b=raw_input()
-print(len(b.split(" ")))
+karthi=raw_input()
+print(len(karthi.split(" ")))
