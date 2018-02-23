@@ -1,2 +1,2 @@
-a=input()
-print(a+1)
+karthi=input()
+print(karthi+1)
