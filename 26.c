@@ -1,28 +1,28 @@
 #include<stdio.h>
 void main()
 {
-int a[10],i,j,temp,n;
+int x[10],i,j,temp,n;
 printf("enter the number");
 scanf("%d",&n);
 printf("enter the number");
 for(i=0;i<n;i++)
 {
-scanf("%d",&a[i]);
+scanf("%d",&x[i]);
 }
 for(i=0;i<n;i++)
 {
 for(j=i+1;j<n;j++)
 {
-if(a[i]>a[j])
+if(x[i]>x[j])
 {
-temp=a[i];
-a[i]=a[j];
-a[j]=temp;
+temp=x[i];
+x[i]=x[j];
+x[j]=temp;
 }
 }
 }
 for(i=0;i<n;i++)
 {
-printf("%d",a[i]);
+printf("%d",x[i]);
 }
 }
