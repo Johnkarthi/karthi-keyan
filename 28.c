@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int Array[] = { 5, 8, 3, 7 };
-int Element = 3;
+int A[] = { 5, 8, 3, 7 };
+int E = 3;
 int Index;
 
-for (int i = 0; i < Array.Length; i++)
+for (int i = 0; i < A.Length; i++)
 {
-     if (Element == Array[i])
+     if (E == A[i])
      {
          Index = i;
      }
