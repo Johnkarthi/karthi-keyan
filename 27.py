@@ -1,5 +1,5 @@
-a=input("enter the value")
-if a is int:
+x=input("enter the value")
+if x is int:
    print("yes")
 else:
    print("no")
