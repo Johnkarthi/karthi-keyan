@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-	char n;
+	char x;
 	printf("Enter the Number:");
-	scanf("%d",&n);
-	printf("The Integer Character is %c",(n+64));
+	scanf("%d",&x);
+	printf("The Integer Character is %c",(x+64));
 }
