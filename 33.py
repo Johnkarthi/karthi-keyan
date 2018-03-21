@@ -1,10 +1,10 @@
-a = input("Enter file name: ")
-k = 0
- with open(a, 'r') as f:
+x = input("Enter file name: ")
+y = 0
+ with open(x, 'r') as f:
     for line in f:
         b = line.split()
         for i in b:
             for c in i:
                 if(c.isspace):
-                    k=k+1
-print(k)
+                    y=y+1
+print(y)
