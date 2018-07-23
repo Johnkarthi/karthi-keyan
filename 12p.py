@@ -1,13 +1,13 @@
 def main():
     list=[]
-    x,y=input().split(" ")
-    x=int(x)
-    y=int(y)
-    for i in range(0,x):
+    a,b=input().split(" ")
+    a=int(a)
+    b=int(b)
+    for i in range(0,a):
         k=int(input())
         list.append(str(k))
 
-    final=(list[-y:]+list[:-y])
+    final=(list[-b:]+list[:-b])
     print( ' '.join(final))
 if __name__ == '__main__':
     main()
