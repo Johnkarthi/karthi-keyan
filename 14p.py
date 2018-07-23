@@ -1,1 +1,1 @@
-print "".join([i for i in raw_input() if i.lower() not in ['a','e','i','o','u']][::-1])
+print "".join([a for a in raw_input() if a.lower() not in ['a','e','i','o','u']][::-1])
